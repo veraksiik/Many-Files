@@ -9,11 +9,7 @@
 int main() {
 
 
-	setlocale(LC_ALL, "ru");
-	srand(time(NULL));
-
-	Furniture a;
-	a.GetData();
+	Print();
 
 	system("pause");
 	return 0;
